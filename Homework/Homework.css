@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.table{
+    width: 60%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 15px #0002;
+}
+.table th,
+.table td{
+    border-bottom: 1px solid #ddd;
+    padding: 13px 20px;
+}
+.table thead{
+    text-align: left;
+}
+.table tbody tr:nth-child(odd){
+    background: rgb(237, 237, 237);
+}
+.btn1{
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background: green;
+    color: #fff;
+}
+.btn2{
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background: gold;
+    color: #fff;
+}
+.btn3{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background: red;
+    color: #fff;
+}
+.table2{
+    width: 60%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 15px #0002;
+    margin-top: 100px;
+}
+.table2 th,
+.table2 td{
+    padding: 25px 20px;
+}
+.table2 thead{
+    background: rgb(120, 6, 220);
+    color: #fff;
+    text-align: left;
+}
+.table2 tbody tr:nth-child(odd){
+    background: rgb(237, 237, 237);
+}
+.button{
+    width: 70px;
+    height: 35px;
+    border: none;
+    border-radius: 2px;
+    background: rgb(120, 6, 220);
+    color: #fff;
+}
